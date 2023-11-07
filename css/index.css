@@ -1,0 +1,10 @@
+main{
+    width: 100%;
+    background-color: red;
+}
+.main-header{
+    width: 100%;
+    margin: 0.5em auto;
+    font-size: 5em;
+    text-align: center;
+}

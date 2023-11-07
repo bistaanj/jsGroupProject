@@ -1,0 +1,17 @@
+footer{
+    width: 100%;
+    background-color: black;
+}
+.footer-main-div{
+    width: 70%;
+    height: max-content;
+    color: white;
+    margin: auto;
+    text-align: center;    
+}
+.upper-div{
+    font-size: 1em;
+}
+.lower-div{
+    font-size: 1.5em;
+}
