@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/newTask.css">
+    <title>New task</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            Virtual TASK MANAGER
+
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="/html/index.html">Home</a></li>
+                <li><a href="/html/taskManager.html">Task Manager</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="new-task-main">
+        <div class="new-task-header">
+            Provide the details for the New Task.
+        </div>
+        <div class="new-task-formDiv">
+            <form action="">
+                <div class="nt-formGroup">
+                    <label for="tName">Task Name</label>
+                    <input type="text" name="taskName" id="taskName">
+                </div>
+                <div class="nt-formGroup">
+                    <label for="tStartDate">Start Date</label>
+                    <input type="date" name="tStartDate" id="tStartDate">
+                </div>
+                <div class="nt-formGroup">
+                    <label for="tAssigned">Assigned To</label>
+                    <input type="text" name="tAssigned" id="tAssigned">
+                </div>
+                <div class="nt-formGroup">
+                    <label for="tDuration">Estimated Duration</label>
+                    <input type="text" name="tDuration" id="tDuration">
+                </div>
+                <div class="nt-formGroup">
+                    <label for="tDescription">Description</label>
+                    <textarea name="tDescription" id="tDescription" cols="30" rows="30"></textarea>
+                </div>
+                <div class="nt-formGroup-button">
+                    <button type="submit" id="sumbit-new" name="submit-new">Submit</button>
+                </div>
+
+
+
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

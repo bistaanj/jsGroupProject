@@ -1,0 +1,48 @@
+.task-mgr-main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.searchbar{
+    margin: 1em auto;
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+}
+.search-inputDiv{
+    padding: 1em;
+    flex-basis: 60%;
+}
+.search-buttonDiv{
+    margin: auto;
+    flex-basis: 40%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;   
+}
+.search-bar-button{
+    width: max-content;
+    height: max-content;
+    background-color: #3497da;
+    font-size: 1.2em;
+    padding: 10px;
+    color: white;
+    border: 0;
+    border-radius: 1em;
+    height: 2em;
+}
+#search-text{
+    width: 80%;
+    height: 1.5em;
+    margin: auto;
+}
+
+.task-cards{
+    
+    margin: auto;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+

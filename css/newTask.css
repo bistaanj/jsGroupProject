@@ -1,0 +1,55 @@
+.new-task-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    background-color: #ccc;
+    margin: 1em auto;
+    border-radius: 2em;
+}
+.new-task-header{
+    display: flex;
+    max-width: fit-content;
+    margin: 1em auto;
+    font-size: 1.5em;
+}
+.new-task-formDiv{
+    display: flex;
+    margin: auto;
+    width: max-content;
+    /* background-color: pink; */
+}
+.nt-formGroup{
+    display: flex;
+    flex-basis: 80%;
+    /* background-color: gray; */
+    margin: 0.1em;
+}
+.new-task-formDiv label{
+    flex-basis: 20%;
+    /* background-color: red; */
+    margin: 1em 1em;
+    text-align: right;
+}
+.new-task-formDiv input, textarea{
+    flex-basis: 60%;
+    height: 2em;
+    margin: auto;
+    width: 50vw;
+}
+
+.nt-formGroup-button{
+    /* background-color: red; */
+    width: max-content;
+    margin: 1em auto;
+}
+
+.nt-formGroup-button button{
+    justify-content: flex-end;
+    color: white;
+    font-size: 1.5em;
+    background-color: blue;
+    border: 0;
+    border-radius: 0.5em;
+    justify-self: flex-end;
+}
